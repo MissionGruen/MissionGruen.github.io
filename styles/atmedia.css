@@ -1,0 +1,40 @@
+
+
+@media (min-aspect-ratio: 4/3) {
+  .headbar{
+    display: none;
+  }
+}
+
+@media (max-width: 600px){
+  .change-site,
+  .change-site-active,
+  .header-socials{
+    display: none;
+  }
+  .header-menue{
+    display: block;
+  }
+}
+@media (min-width: 600px){
+  .header-menue{
+    display: none;
+  }
+}
+
+@media (max-aspect-ratio: 4/3) {
+  .sidebar{
+    display: none;
+  }
+}
+
+@media (max-aspect-ratio: 4/3) {
+  .body{
+    padding-left: 10px;
+  }
+}
+@media (max-aspect-ratio: 4/3) {
+  .body{
+    padding-top: 85px;
+  }
+}

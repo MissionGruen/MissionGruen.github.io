@@ -1,0 +1,23 @@
+.pers-info{
+  font-size: 14pt;
+}
+.warning{
+  padding: 10px 20px;
+  border: 2px solid var(--co-darkred);
+  border-radius: 10px;
+  display: inline-block;
+  background-color: var(--bg-top);
+  box-shadow: 5px 5px 10px var(--co-box-shadow);
+}
+.body{
+  color: var(--co-text);
+  background-color: var(--bg-main);
+  padding: 10px;
+  padding-left: 170px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-top: 0;
+  padding-bottom: 50px;
+  font-family: Roboto, Arial;
+}
+

@@ -1,0 +1,115 @@
+.projects-grid{
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 25px;
+  column-gap: 25px;
+}
+@media (min-aspect-ratio: 2/3) {
+  .projects-grid{
+    grid-template-columns: 1fr;
+  }
+}
+@media (min-aspect-ratio: 1/1) {
+  .projects-grid{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-aspect-ratio: 7/4) {
+  .projects-grid{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (min-aspect-ratio: 5/2) {
+  .projects-grid{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+.project-block{
+  width: 100%;
+  background-color: rgb(43, 49, 51);
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.219);
+}
+
+.proj-thumbnail{
+  display: flex;
+  width: 100%;
+  background-color: white;
+}
+.proj-title{
+  margin-top: 10px;
+  display: flex;
+  font-size: 18pt;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.proj-author-date{
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.proj-side-info{
+  color: rgb(185, 185, 185);
+  font-size: 11pt;
+}
+
+.proj-tags{
+  display: flex;
+  margin-top: 5px;
+  justify-content: left;
+  flex-direction: row;
+}
+.proj-tag{
+  background-color: rgb(34, 39, 41);
+  padding: 3px 10px;
+  font-size: 11pt;
+  color: rgb(185, 185, 185);
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.26);
+  margin-right: 10px;
+}
+.tag-soz{
+  font-size: 9pt;
+  color: rgb(255, 123, 0);
+}
+.tag-pjg{
+  font-size: 9pt;
+  color: rgb(34, 197, 197);
+}
+.tag-inf{
+  font-size: 9pt;
+  color: rgb(37, 157, 204);
+}
+.tag-mathe{
+  font-size: 9pt;
+  color: rgb(180, 19, 19);
+}
+
+.proj-abstract{
+  border-top: 1px solid rgb(83, 88, 90);
+  margin-top: 7px;
+  padding-top: 7px;
+  flex: 1;
+  font-size: 11pt;
+}
+
+.proj-link{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.proj-button{
+  font-size: 12pt;
+  border: none;
+  padding: 5px 20px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.253);
+  margin-bottom: 5px;
+  font-family: Roboto, Arial;
+}

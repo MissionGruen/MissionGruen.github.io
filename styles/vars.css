@@ -1,0 +1,17 @@
+:root{
+    --bg-main: rgb(34, 39, 41);
+    --bg-top: rgb(43, 49, 51);
+    --bg-hover: rgb(59, 66, 68);
+    --bg-active: rgb(95, 106, 109);
+    --trennstrich: rgb(83, 88, 90);
+    --co-active: rgb(185, 185, 185);
+    --co-darkred: rgb(150, 14, 14);
+    --co-text: white;
+    --co-text-invers: black;
+    --co-box-shadow: rgba(0, 0, 0, 0.24);
+    --kleingedrucktes: rgb(185, 185, 185);
+}
+
+@media (prefers-color-scheme: light){
+
+}
