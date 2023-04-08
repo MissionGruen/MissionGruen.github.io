@@ -12,6 +12,18 @@
     --kleingedrucktes: rgb(185, 185, 185);
 }
 
-@media (prefers-color-scheme: light){
-
+@media (prefers-color-scheme: light) {
+    :root{
+        --bg-main: rgb(238, 238, 238);
+        --bg-top: rgb(255, 255, 255);
+        --bg-hover: rgb(211, 211, 211);
+        --bg-active: rgb(158, 158, 158);
+        --trennstrich: rgb(149, 149, 150);
+        --co-active: rgb(99, 99, 99);
+        --co-darkred: rgb(150, 14, 14);
+        --co-text: black;
+        --co-text-invers: white;
+        --co-box-shadow: rgba(0, 0, 0, 0.24);
+        --kleingedrucktes: rgb(185, 185, 185);
+    }
 }

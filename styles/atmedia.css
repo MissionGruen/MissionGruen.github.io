@@ -1,6 +1,6 @@
 
 
-@media (min-aspect-ratio: 4/3) {
+@media (min-aspect-ratio: 4/3) and (min-height: 475px) {
   .headbar{
     display: none;
   }
@@ -22,18 +22,18 @@
   }
 }
 
-@media (max-aspect-ratio: 4/3) {
+@media (max-aspect-ratio: 4/3) or (max-height: 475px) {
   .sidebar{
     display: none;
   }
 }
 
-@media (max-aspect-ratio: 4/3) {
+@media (max-aspect-ratio: 4/3) or (max-height: 475px){
   .body{
     padding-left: 10px;
   }
 }
-@media (max-aspect-ratio: 4/3) {
+@media (max-aspect-ratio: 4/3) or (max-height: 475px){
   .body{
     padding-top: 85px;
   }
