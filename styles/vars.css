@@ -8,6 +8,7 @@
     --co-darkred: rgb(150, 14, 14);
     --co-text: white;
     --co-text-invers: black;
+    --co-main-shadow: rgba(0, 0, 0, 0.24);
     --co-box-shadow: rgba(0, 0, 0, 0.24);
     --co-box-shadow-str: rgba(0, 0, 0, 0.596);
     --kleingedrucktes: rgb(185, 185, 185);
@@ -17,7 +18,7 @@
 
 @media (prefers-color-scheme: light) {
     :root{
-        --bg-main: rgb(238, 238, 238);
+        --bg-main: rgb(248, 248, 248);
         --bg-top: rgb(255, 255, 255);
         --bg-hover: rgb(211, 211, 211);
         --bg-active: rgb(158, 158, 158);
@@ -25,6 +26,7 @@
         --co-active: rgb(99, 99, 99);
         --co-text: black;
         --co-text-invers: white;
+        --co-main-shadow: rgba(0, 0, 0, 0.08);
         --co-box-shadow: rgba(0, 0, 0, 0.24);
         --kleingedrucktes: rgb(185, 185, 185);
         --co-box-shadow-str: rgba(0, 0, 0, 0.438);

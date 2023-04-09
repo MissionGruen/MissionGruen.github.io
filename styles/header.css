@@ -5,7 +5,7 @@
   top: 0;
   background-color: var(--bg-top);
   width: 150px;
-  box-shadow: 5px 0 10px var(--co-box-shadow);
+  box-shadow: 5px 0 10px var(--co-main-shadow);
   padding: 5px;
 }
 
