@@ -1,0 +1,13 @@
+.proj-tag span{
+    font-size: 9pt;
+}
+
+.tag-flora{
+    color: rgb(0, 192, 0);
+}
+.tag-fauna{
+    color: rgb(134, 92, 28);
+}
+.tag-artenschutz{
+    color: rgb(185, 23, 123);
+}

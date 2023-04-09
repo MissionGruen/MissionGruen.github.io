@@ -27,12 +27,12 @@
 
 .project-block{
   width: 100%;
-  background-color: rgb(43, 49, 51);
+  background-color: var(--bg-top);
   display: flex;
   flex-direction: column;
   padding: 8px;
   border-radius: 5px;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.219);
+  box-shadow: 5px 5px 10px var(--co-main-shadow);
 }
 
 .proj-thumbnail{
@@ -55,44 +55,28 @@
   flex-direction: row;
 }
 .proj-side-info{
-  color: rgb(185, 185, 185);
+  color: var(--kleingedrucktes);
   font-size: 11pt;
 }
 
 .proj-tags{
-  display: flex;
   margin-top: 5px;
-  justify-content: left;
-  flex-direction: row;
 }
 .proj-tag{
-  background-color: rgb(34, 39, 41);
+  background-color: var(--bg-main);
   padding: 3px 10px;
   font-size: 11pt;
-  color: rgb(185, 185, 185);
+  color: var(--kleingedrucktes);
   border-radius: 10px;
-  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.26);
+  box-shadow: 3px 3px 10px var(--co-box-shadow);
   margin-right: 10px;
-}
-.tag-soz{
-  font-size: 9pt;
-  color: rgb(255, 123, 0);
-}
-.tag-pjg{
-  font-size: 9pt;
-  color: rgb(34, 197, 197);
-}
-.tag-inf{
-  font-size: 9pt;
-  color: rgb(37, 157, 204);
-}
-.tag-mathe{
-  font-size: 9pt;
-  color: rgb(180, 19, 19);
+  display: inline;
+  line-height: 200%;
 }
 
+
 .proj-abstract{
-  border-top: 1px solid rgb(83, 88, 90);
+  border-top: 1px solid var(--trennstrich);
   margin-top: 7px;
   padding-top: 7px;
   flex: 1;

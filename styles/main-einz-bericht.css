@@ -1,0 +1,26 @@
+.bericht-go-back{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    width: 75px;
+    text-align: center;
+    padding: 5px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    transition: 0.15s;
+    background-color: var(--co-overlay);
+  }
+  .bericht-go-back:hover{
+    background-color: var(--bg-hover);
+  }
+  .bericht-go-back:active{
+    background-color: var(--bg-active);
+  }
+
+  @media (max-aspect-ratio: 4/3) or (max-height: 520px){
+    .bericht-go-back{
+        top: 95px;
+    }
+  }
