@@ -21,3 +21,32 @@
   font-family: Roboto, Arial;
 }
 
+.preview-home-akt{
+  background-color: var(--bg-top);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px var(--co-box-shadow);
+  width: clamp(200px, 90%, 900px);
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.preview-home-akt div img{
+  width: 100%;
+  border-radius: 5px;
+}
+.preview-home-akt div h3{
+  margin-top: 0;
+  font-size: 18pt;
+  margin-bottom: 5px;
+}
+.preview-home-akt div .date{
+  font-size: 16pt;
+  padding-bottom: 7px;
+  border-bottom: 1px solid var(--trennstrich);
+}
+.preview-home-akt div p{
+  margin-top: 9px;
+}
+

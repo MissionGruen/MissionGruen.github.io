@@ -2,3 +2,25 @@
 background: rgb(34, 39, 41) oder white
 button: rgb(7, 138, 143)
 */
+
+a{
+    color: var(--co-green);
+}
+
+.normal-button{
+    background-color: var(--co-green);
+    border: none;
+    font-size: 12pt;
+    font-family: inherit;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px var(--co-box-shadow);
+    cursor: pointer;
+    color: var(--co-text);
+}
+.normal-button:hover{
+    box-shadow: 5px 5px 10px var(--co-box-shadow-str);
+}
+.normal-button:active{
+    background-color: var(--co-green-mod);
+}

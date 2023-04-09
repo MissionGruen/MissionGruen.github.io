@@ -9,7 +9,10 @@
     --co-text: white;
     --co-text-invers: black;
     --co-box-shadow: rgba(0, 0, 0, 0.24);
+    --co-box-shadow-str: rgba(0, 0, 0, 0.596);
     --kleingedrucktes: rgb(185, 185, 185);
+    --co-green: rgb(0, 177, 0);
+    --co-green-mod: rgb(0, 150, 0);
 }
 
 @media (prefers-color-scheme: light) {
@@ -20,10 +23,11 @@
         --bg-active: rgb(158, 158, 158);
         --trennstrich: rgb(149, 149, 150);
         --co-active: rgb(99, 99, 99);
-        --co-darkred: rgb(150, 14, 14);
         --co-text: black;
         --co-text-invers: white;
         --co-box-shadow: rgba(0, 0, 0, 0.24);
         --kleingedrucktes: rgb(185, 185, 185);
+        --co-box-shadow-str: rgba(0, 0, 0, 0.438);
+
     }
 }
