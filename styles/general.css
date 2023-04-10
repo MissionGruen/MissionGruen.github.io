@@ -24,3 +24,6 @@ a{
 .normal-button:active{
     background-color: var(--co-green-mod);
 }
+.externer-link-confirm{
+    cursor: pointer;
+}
