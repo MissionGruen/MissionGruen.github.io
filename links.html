@@ -7,14 +7,14 @@
   <meta name="description" content="Dies ist meine erste Website">
   <meta name="keywords" content="HTML, CSS, erste Website, Homepage">
   <meta name="author" content="Benedikt Lamberty">
-  <title>Mission Grün</title>
+  <title>Externe Links | Mission Grün</title>
 
   <link rel="stylesheet" href="styles/general.css">
   <link rel="stylesheet" href="styles/header.css">
-  <link rel="stylesheet" href="styles/main-index.css">
   <link rel="stylesheet" href="styles/header-top.css">
   <link rel="stylesheet" href="styles/atmedia.css">
   <link rel="stylesheet" href="styles/vars.css">
+  <link rel="stylesheet" href="styles/main-links.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -33,10 +33,12 @@
       <img src="bilder/platzhalter.png" alt="" class="logo-sidebar">
       <nav class="einteilung-navbar">
         <div class="sidebar-section">
-          <div class="sidebar-subsec-active">
-            <div class="nav-icon"><i class="fa-solid fa-house"></i></div>
-            <div class="nav-name">Start</div>
-          </div>
+          <a href="index.html">
+            <div class="sidebar-subsec">
+                <div class="nav-icon"><i class="fa-solid fa-house"></i></div>
+                <div class="nav-name">Start</div>
+            </div>
+          </a>
           <a href="about.html">
             <div class="sidebar-subsec">
               <div class="nav-icon"><i class="fa-solid fa-people-group"></i></div>
@@ -69,12 +71,12 @@
               <div class="nav-name">YouTube</div>
             </div>
           </a>
-          <a href="links.html">
-            <div class="sidebar-subsec">
+
+            <div class="sidebar-subsec-active">
               <div class="nav-icon"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
               <div class="nav-name">Links</div>
             </div>
-          </a>
+
         </div>
         <div class="sidebar-section">
           <a href="kontakt.html">
@@ -90,11 +92,11 @@
     <div class="headbar">
       <nav class="header-nav">
         <img src="bilder/platzhalter.png" alt="" class="logo-headbar">
-        <div class="change-site-active">
-          <div class="header-link-active">
+        <div class="change-site">
+          <a href="index.html" class="header-link">
             <div class="header-change-icon"><i class="fa-solid fa-house"></i></div>
             <div class="header-change-text">Start</div>
-          </div>
+          </a>
         </div>
         <div class="change-site">
           <a href="about.html" class="header-link">
@@ -124,9 +126,9 @@
           <a href="https://www.youtube.com/" class="header-social-link">
             <i class="fa-brands fa-youtube"></i>
           </a>
-          <a href="links.html" class="header-social-link">
+          <div class="header-social-link-active">
             <i class="fa-solid fa-arrow-up-right-from-square"></i>
-          </a>
+          </div>
           <a href="kontakt.html" class="header-social-link">
             <i class="fa-solid fa-envelope"></i>
           </a>
@@ -144,53 +146,24 @@
 <!--Main---------------------------------------------------------------------------------------------------->
 <!--Main---------------------------------------------------------------------------------------------------->
   <main>
-    <h1>Willkommen bei Mission Grün!</h1>
+    <h1>Externe Links</h1>
 
-    <div class="warning">
-      Diese Seite ist keine professionelle Internetseite, sondern nur ein kleines Projekt :&#41;
-    </div>
+    <a href="https://www.nabu.de/" class="preview-home-akt">
+      <div class="link-pic"><img src="bilder/bild-platzhalter.png" alt=""></div>
+      <div>
+        <h3>NABU</h3>
+        <div class="date">Naturschutzbund Deutschland e.V</div>
+        <p>Der mitgliederstärkste Umweltverband in Deutschland</p>
+      </div>
+    </a>
 
-    
-    <h2>Wer sind wir?</h2>
-    <p class="pers-info">
-      Wir sind eine Kinder- und Jugendgruppe im Pastoralen Raum Bad Neuenahr-Ahrweiler,
-      die sich für Natur- und Artenschutz einsetzt. Wenn Sie näheres über uns wissen wolle,
-      finden sie <a href="about.html">hier</a> mehr Informationen.
-    </p>
-
-    <h2>Aktuelle Veranstaltungen</h2>
-    <div class="preview-home-akt">
-      <div><img src="bilder/bild-platzhalter.png" alt=""></div>
+    <a href="https://www.pastoraler-raum-bad-neuenahr-ahrweiler.de/" class="preview-home-akt">
+      <div class="link-pic"><img src="bilder/bild-platzhalter.png" alt=""></div>
       <div>
-        <h3>Kräuterpfannkucken Backen mit Elisa</h3>
-        <div class="date">01.01.2050 &#183; 15:30 Uhr &#183; Auf dem Mond</div>
-        <p>
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-        </p>
-        <button class="normal-button">
-          <i class="fa-solid fa-circle-info"></i> mehr Infos
-        </button>
+        <h3>Pastoraler Raum Bad Neuenahr-Ahrweiler</h3>
+        <p>ölkasjdflökjasdklöj</p>
       </div>
-    </div>
-    <div class="preview-home-akt">
-      <div>
-        <h3>Vogelwanderung</h3>
-        <div class="date">02.02.2090 &#183; 15:30 Uhr &#183; Im Wald</div>
-        <p>
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-        </p>
-        <button class="normal-button">
-          <i class="fa-solid fa-circle-info"></i> mehr Infos
-        </button>
-      </div>
-    </div>
-    <div class="preview-home-akt">
-      <div>
-        <button class="normal-button">
-          <i class="fa-solid fa-arrow-right-from-bracket"></i> Weitere Aktionen
-        </button>
-      </div>
-    </div>
+    </a>
   </main>
 
 
