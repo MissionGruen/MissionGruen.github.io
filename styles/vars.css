@@ -1,8 +1,8 @@
 :root{
-    /*--bg-main: rgb(34, 39, 41);*/
-    --bg-main: rgb(11, 47, 0);
-    /*--bg-top: rgb(43, 49, 51);*/
-    --bg-top: rgb(18, 74, 0);
+    --bg-main: rgb(34, 39, 41);
+    /*--bg-main: rgb(11, 47, 0);*/
+    --bg-top: rgb(43, 49, 51);
+    /*--bg-top: rgb(18, 74, 0);*/
     --bg-hover: rgb(59, 66, 68);
     --bg-active: rgb(95, 106, 109);
     --trennstrich: rgb(83, 88, 90);
